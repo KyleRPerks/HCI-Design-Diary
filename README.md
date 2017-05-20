@@ -1,9 +1,9 @@
-#HCI Design Diary
+# HCI Design Diary
 
-##About Project
+## About Project
 A static website built to organize and present my HCI Project. My team and I were tasked with choosing 8 products and giving a HCI analysis and recommendation. 
 
-##Development Specifics
+## Development Specifics
 This site was built only with raw HTML/CSS
 
 -----
