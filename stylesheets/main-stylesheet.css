@@ -1,0 +1,248 @@
+/*This root class sets global variables to be used thought the css
+	change values here not directly
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root {
+	/*testing*/
+
+	/*colors*/
+	--primCol: #21273a; /*blui-ish primary color*/
+	--bgCol: #white; /*gray page backgound*/
+	--navLinkCol: white;
+	--hoverCol: #96bae3;
+	--vidTitleCol: black;
+	--borderCol: black;
+	--footerBgCol:#5f5f5f;
+	
+	/*fonts*/
+	--letterSpacing: 5px;
+	
+	/*dementions*/
+	--fullWidth: 850px;
+	--headerHeight:60px; 
+	
+}
+
+/*body*/
+body {
+	margin:0;
+	font-family: 'Open Sans';
+	background-color: var(--bgCol);
+}
+
+#page_wrappter  {
+	background-color: var(--bgCol);
+}
+.wrapper {
+}
+.contentContainer {
+	width: var(--fullWidth);
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+	background-color: white;
+}
+/*header*/
+#header_wrapper {
+	background-color: var(--primCol);
+}
+#header {
+	height: var(--headerHeight);
+	background-color: var(--primCol);
+	overflow: hidden;
+	
+}
+#main_nav {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+
+}
+.navElem {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 20px;
+	padding-left: 0px;
+}
+.navElem a {
+	color: var(--navLinkCol);
+	display: block;
+	margin: 0;
+  text-decoration: none;
+	font-weight: light;
+}
+.navElem a:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: var(--hoverCol);
+	color: var(--hoverCol);
+	font-weight: strong;
+}
+#main {
+	min-height: 750px;
+	padding-bottom: 20px;
+}
+.pageTitle {
+	display: bloxk;
+	text-align: center;
+	/*-webkit-transform:scale(1,1.5);  Safari and Chrome */
+  /*-moz-transform:scale(1,1.5);  Firefox */
+	letter-spacing: var(--letterSpacing);
+	font-weight: lighter;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+.subHeading {
+  display:inline-block;
+  /*-webkit-transform:scale(1,1.5);  Safari and Chrome */
+  /*-moz-transform:scale(1,1.5);  Firefox */
+	letter-spacing: var(--letterSpacing);
+	font-weight: lighter;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.vidCat {
+	padding-bottom:	40px;
+		padding-top: 20px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;	
+	border-color: var(--borderCol);
+}
+.vidList {
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+}
+.listElem {
+	display: inline-block;
+	margin: 0px;
+	margin-right: 10px;
+	padding: 0px;	
+	
+}
+.stars {
+	width: 10px;
+	height: 10px;
+}
+.vidTitle a{
+	text-decoration: none;
+	color: var(--vidTitleCol);
+}
+.vidTitle a:hover {
+	color: var(--hoverCol);
+}
+.vidTitle {
+	margin: 0px;
+	padding: 0px;
+	font-weight: light;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+/*about page*/
+.bodyContent {
+	margin:0px;
+	padding-top: 20px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;	
+	border-color: var(--borderCol);
+}
+.bodytext {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+.profile {
+	padding-bottom: 20px;
+	height: 150px;
+}
+.profilePic {
+	height: 100px;
+	width: 100px;
+	margin: 0px;
+	margin-right:40px;
+	margin-left:40px;
+	padding:0px;
+	padding-right:20px;
+	float:left;
+}
+.profileContent {
+	font-size: 12px;
+}
+
+/*product page*/
+#video iframe {
+	width: 850px;
+	height: 415px;
+}
+#left_col {
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	width: 450px;
+	/*background-color: blue;*/
+	
+}
+#right_col {
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	width: 350px;
+	float: right;
+	/*background-color: green;*/
+}
+#right_col h4 {
+	margin:0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+	
+#video {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.description {
+	margin: 0px;
+	padding: 0px;
+}
+.termList {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.termElem {
+	display: block;
+	padding: 10px;
+	padding-left: 0px;
+}
+#footer_wrapper {
+	background-color: var(--footerBgCol);	
+}
+#footer {
+	background-color: var(--footerBgCol);
+	color: white;
+	padding-top: 20px;
+	min-height: 150px;
+}
+.footerBlock {
+	margin: auto;
+	float: left;
+	padding:0px;
+	width: 360px;
+	list-style: none;
+	font-size: 12px;
+	font-weight: light;
+}
+.footerBlock li{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
