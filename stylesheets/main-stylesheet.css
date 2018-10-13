@@ -166,11 +166,10 @@ body {
 	height: 100px;
 	width: 100px;
 	margin: 0px;
-	margin-right:40px;
-	margin-left:40px;
+	margin-right:60px;
 	padding:0px;
-	padding-right:20px;
 	float:left;
+	border-radius: 50%;
 }
 .profileContent {
 	font-size: 12px;
